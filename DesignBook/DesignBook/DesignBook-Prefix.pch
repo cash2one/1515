@@ -1,0 +1,40 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#define kTYPE_HOME 0
+#define kTYPE_PHOTO 1
+#define kTYPE_PERSON_INFO 2
+#define kTYPE_DESIGN_CASE 3
+#define kTYPE_BLOG 4
+#define kTYPE_COMMENT 5
+#define kTYPE_FIND_SJS 6
+#define kTYPE_DESIGNTRADE 7
+#define kTYPE_ZX_PHOTO 8
+#define kTYPE_ASKANSWER 9
+
+#define kTYPE_SUBASKANSWER 10
+#define kTYPE_RANK 11
+
+#define kTYPE_SEARCH_KEYWORD 12
+#define kTYPE_SEARCH_TYPE 13
+
+#define kTYPE_SEARCH_SJS 14
+#define kTYPE_SEARCH_PHOTO 15
+#define kTYPE_SEARCH_ANSWER 16
+
+#define kTYPE_PERSON_NAME 17
+#define kTYPE_MY_INFO 18
+#endif
